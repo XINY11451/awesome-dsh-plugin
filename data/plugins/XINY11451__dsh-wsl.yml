@@ -3,5 +3,5 @@ name: XINY11451/dsh-wsl
 category: wsl
 tarball: https://github.com/XINY11451/dsh-wsl/releases/latest/download/dsh-wsl.tgz
 description:
-  en: 'WSL tools for DSH: basic alignment with Linux native DSH function. run Linux commands, convert Windows/WSL paths, and summarize the WSL environment.'
-  zh: 'DSH 的 WSL 工具：基本对齐Linux原生 DSH 功能。执行 Linux 命令、转换 Windows/WSL 路径、汇总 WSL 环境。'
+  en: 'WSL tools for DSH: run Linux commands (fresh shell per call, exit codes and signals, timeouts, truncated output spilled to a file, optional stdin), convert Windows↔WSL paths, report the WSL environment (kernel, systemd, docker, drives), send long builds to background jobs, and guard destructive commands. A left-sidebar panel switches each capability; an opt-in patch points the sidebar terminal at WSL. WSL calls run below the DSH sandbox.'
+  zh: 'DSH 的 WSL 工具：执行 Linux 命令（每次全新 shell、退出码与信号、超时、截断落盘、可喂 stdin）、Windows↔WSL 路径互转、WSL 环境体检（内核、systemd、docker、挂载盘）、长任务转后台作业、危险命令守卫；左侧栏面板可逐项开关，另有可选 patch 让侧边栏终端直接用 WSL。WSL 调用位于 DSH 沙箱层之下。'
